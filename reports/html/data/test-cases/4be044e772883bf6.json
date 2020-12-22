@@ -1,0 +1,120 @@
+{
+  "uid" : "4be044e772883bf6",
+  "name" : "test_pay",
+  "fullName" : "testcase.test_mtx_pay.TestPay#test_pay",
+  "historyId" : "d1dbfa2e92e506a22c32555ac9a1ff1e",
+  "time" : {
+    "start" : 1607077185916,
+    "stop" : 1607077186850,
+    "duration" : 934
+  },
+  "description" : "\n        测试用例\n        :return:\n        ",
+  "descriptionHtml" : "<pre><code>    测试用例\n    :return:\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_session_faker",
+    "time" : {
+      "start" : 1607077184443,
+      "stop" : 1607077184591,
+      "duration" : 148
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  }, {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1607077185602,
+      "stop" : 1607077185915,
+      "duration" : 313
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "\n        测试用例\n        :return:\n        ",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "abb8a0d1767033d4",
+      "name" : "log",
+      "source" : "abb8a0d1767033d4.txt",
+      "type" : "text/plain",
+      "size" : 452
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1607077186852,
+      "stop" : 1607077186852,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "testcase"
+  }, {
+    "name" : "suite",
+    "value" : "test_mtx_pay"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestPay"
+  }, {
+    "name" : "host",
+    "value" : "DJ-2067"
+  }, {
+    "name" : "thread",
+    "value" : "65364-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.test_mtx_pay"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "4be044e772883bf6.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,111 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "testcase",
+    "children" : [ {
+      "name" : "test_mtx_login",
+      "children" : [ {
+        "name" : "TestLogin",
+        "children" : [ {
+          "name" : "登录的测试用例",
+          "uid" : "3efc3ec2ee4fcbb3",
+          "parentUid" : "2f4ed3f42cdc7e1ee9cca43b041c0f99",
+          "status" : "passed",
+          "time" : {
+            "start" : 1607077184593,
+            "stop" : 1607077184787,
+            "duration" : 194
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'accounts': 'yaoyao', 'pwd': '', 'exp': '密码格式 6~18 个字符之间'}" ]
+        }, {
+          "name" : "登录的测试用例",
+          "uid" : "1720e8271457e0cc",
+          "parentUid" : "2f4ed3f42cdc7e1ee9cca43b041c0f99",
+          "status" : "passed",
+          "time" : {
+            "start" : 1607077184806,
+            "stop" : 1607077184945,
+            "duration" : 139
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'accounts': '', 'pwd': 'yaoyao', 'exp': '登录账号有误'}" ]
+        }, {
+          "name" : "登录的测试用例",
+          "uid" : "ec62fb9f9001c82a",
+          "parentUid" : "2f4ed3f42cdc7e1ee9cca43b041c0f99",
+          "status" : "passed",
+          "time" : {
+            "start" : 1607077184966,
+            "stop" : 1607077185109,
+            "duration" : 143
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'accounts': 'lwx', 'pwd': 'yaoyao', 'exp': '帐号不存在'}" ]
+        }, {
+          "name" : "登录的测试用例",
+          "uid" : "aea05675889a2fff",
+          "parentUid" : "2f4ed3f42cdc7e1ee9cca43b041c0f99",
+          "status" : "passed",
+          "time" : {
+            "start" : 1607077185121,
+            "stop" : 1607077185251,
+            "duration" : 130
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "{'accounts': 'yaoyao', 'pwd': '123456', 'exp': '密码错误'}" ]
+        } ],
+        "uid" : "2f4ed3f42cdc7e1ee9cca43b041c0f99"
+      } ],
+      "uid" : "54577af76cee3b0f6e23400fb116bba2"
+    }, {
+      "name" : "test_mtx_order",
+      "children" : [ {
+        "name" : "TestOrder",
+        "children" : [ {
+          "name" : "test_order",
+          "uid" : "f297532ed09bdfc",
+          "parentUid" : "a0327ace59268f6a95fcd4182476975d",
+          "status" : "passed",
+          "time" : {
+            "start" : 1607077185405,
+            "stop" : 1607077185584,
+            "duration" : 179
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "a0327ace59268f6a95fcd4182476975d"
+      } ],
+      "uid" : "61da711224408b8bb4b112b3f1066228"
+    }, {
+      "name" : "test_mtx_pay",
+      "children" : [ {
+        "name" : "TestPay",
+        "children" : [ {
+          "name" : "test_pay",
+          "uid" : "4be044e772883bf6",
+          "parentUid" : "2cc1b3eaa5b9883bcfe9ecee17aa5e6f",
+          "status" : "passed",
+          "time" : {
+            "start" : 1607077185916,
+            "stop" : 1607077186850,
+            "duration" : 934
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "2cc1b3eaa5b9883bcfe9ecee17aa5e6f"
+      } ],
+      "uid" : "444166db0b139b92b2a336977c592f68"
+    } ],
+    "uid" : "7d3977dcbf31acd3e26ecbe96342e45e"
+  } ]
+}
